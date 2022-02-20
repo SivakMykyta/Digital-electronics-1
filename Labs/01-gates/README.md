@@ -36,7 +36,7 @@ end architecture dataflow;
 
 ### 2. Distributive laws
 
- 2.1 Screenshot with simulated time waveforms.
+ 2.1 Screenshot with simulated time waveforms:
  
    ![waveforms](images/waveforms2.png)
 
