@@ -2,7 +2,7 @@
 
 ### De Morgan's laws
 
-1. Equations of all three versions of logic function f(c,b,a):
+1. Equations of all three versions of logic ![function]<img src="https://latex.codecogs.com/svg.image?\begin{align*}&space;&space;&space;&space;f(c,b,a)_{\textup{ORG}}&space;=&~&space;!{b}~*~a~&plus;~!{c}~*~!{b}\\&space;&space;&space;&space;f(c,b,a)_{\textup{NAND}}&space;=&~&space;!(!(!{b}~*~{a})~*~!(!{b}~*~!{c}))\\&space;&space;&space;&space;f(c,b,a)_{\textup{NOR}}&space;=&~&space;(!({b}~&plus;~!{a}))~&plus;~!(c~&plus;~b)\\\end{align*}" title="\begin{align*} f(c,b,a)_{\textup{ORG}} =&~ !{b}~*~a~+~!{c}~*~!{b}\\ f(c,b,a)_{\textup{NAND}} =&~ !(!(!{b}~*~{a})~*~!(!{b}~*~!{c}))\\ f(c,b,a)_{\textup{NOR}} =&~ (!({b}~+~!{a}))~+~!(c~+~b)\\\end{align*}" /> f(c,b,a):
 
    ![demorganlaw](images/demorganlaw.png)
    
