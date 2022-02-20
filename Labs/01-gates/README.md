@@ -2,7 +2,7 @@
 
 ### 1. De Morgan's laws
 
-1.1 Equations of all three versions of logic function f(c,b,a):
+   1.1 Equations of all three versions of logic function f(c,b,a):
 
    ![demorganlaw](images/demorganlaw.png)
    
@@ -10,7 +10,7 @@
    
    <img src="https://latex.codecogs.com/svg.image?\begin{align*}&space;&space;&space;&space;f(c,b,a)_{\textup{ORG}}&space;=&~&space;!{b}~*~a~&plus;~!{c}~*~!{b}\\&space;&space;&space;&space;f(c,b,a)_{\textup{NAND}}&space;=&~&space;!(!(!{b}~*~{a})~*~!(!{b}~*~!{c}))\\&space;&space;&space;&space;f(c,b,a)_{\textup{NOR}}&space;=&~&space;(!({b}~&plus;~!{a}))~&plus;~!(c~&plus;~b)\\\end{align*}" title="\begin{align*} f(c,b,a)_{\textup{ORG}} =&~ !{b}~*~a~+~!{c}~*~!{b}\\ f(c,b,a)_{\textup{NAND}} =&~ !(!(!{b}~*~{a})~*~!(!{b}~*~!{c}))\\ f(c,b,a)_{\textup{NOR}} =&~ (!({b}~+~!{a}))~+~!(c~+~b)\\\end{align*}" />
    
-1.2 Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+   1.2 Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
 architecture dataflow of demorgan is
@@ -21,7 +21,7 @@ begin
 end architecture dataflow;
 ```
 
-3. Complete table with logic functions' values:
+   1.3 Complete table with logic functions' values:
 
 | **c** | **b** |**a** | **f(c, b, a)_ORG** | **f(c, b, a)_NAND** | **f(c, b, a)_NOR** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
