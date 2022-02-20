@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![demorganlaw](images/demorganlaw.png)
+   ![demorganlaw](images/demorganlaw.png?style=centerme)
    
    nebo taky
    
