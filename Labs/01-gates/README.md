@@ -1,4 +1,4 @@
-# Lab 1: Mykyta Sivak
+# Lab 1
 
 ### De Morgan's laws
 
