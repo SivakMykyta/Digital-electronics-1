@@ -88,6 +88,6 @@ end architecture dataflow;
  
    ![waveforms](images/waveforms3.png)
 
- 3.4 Link to EDA Playground:
+ 3.4 Link to my public EDA Playground example:
  
-   [L I N K](https://www.edaplayground.com/x/rmfd)
+   ![L I N K](https://www.edaplayground.com/x/rmfd)
