@@ -54,7 +54,7 @@ end architecture dataflow;
    
  Second:
  
-   [distributive](images/distributive2.png)
+   [distributive2](images/distributive2.png)
 
  3.2 Verifying the Distributive laws in EDA Playground:
  
