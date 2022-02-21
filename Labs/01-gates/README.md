@@ -46,7 +46,11 @@ end architecture dataflow;
 
 ### 3. Experiment
 
- 3.1 Verifying the Distributive laws in EDA Playground:
+ 3.1 Equations:
+ 
+ 
+
+ 3.2 Verifying the Distributive laws in EDA Playground:
  
    ```vhdl
 entity gates is
@@ -74,6 +78,10 @@ begin
 end architecture dataflow;
 ```
 
- 3.2 Screenshot with simulated waveforms:
+ 3.3 Screenshot with simulated waveforms:
  
    ![waveforms](images/waveforms3.png)
+
+ 3.4 Link to EDA Playground:
+ 
+   ![L I N K](https://www.edaplayground.com/x/rmfd)
