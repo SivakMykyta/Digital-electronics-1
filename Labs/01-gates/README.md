@@ -43,3 +43,37 @@ end architecture dataflow;
  2.2 Link to my public EDA Playground example:
 
    [L I N K](https://www.edaplayground.com/x/TcqB)
+
+### 3. Experiment
+
+ 3.1 Verifying the Distributive laws in EDA Playground:
+ 
+   ```vhdl
+entity gates is
+    port(
+        a_i     : in  std_logic;         -- Data input
+        b_i     : in  std_logic;         -- Data input
+        c_i     : in  std_logic;         -- Data input
+        fd1l_o  : out std_logic;
+        fd1r_o	: out std_logic;
+        fd2l_o  : out std_logic;
+        fd2r_o	: out std_logic
+    );
+end entity gates;
+
+------------------------------------------------------------------------
+-- Architecture body for basic gates
+------------------------------------------------------------------------
+architecture dataflow of gates is
+begin
+-- Distributive laws
+	fd1l_o	<= (a_i and b_i) or (a_i and c_i);
+    fd1r_o	<= a_i and (b_i or c_i);
+    fd2l_o	<= (a_i or b_i) and (a_i or c_i);
+    fd2r_o	<= a_i or (b_i and c_i);
+end architecture dataflow;
+```
+
+ 3.2 Screenshot with simulated waveforms:
+ 
+   ![waveforms](images/waveforms3.png)
