@@ -46,9 +46,15 @@ end architecture dataflow;
 
 ### 3. Experiment
 
- 3.1 Equations:
+ 3.1 Equations.
  
+ First:
  
+   [image](images/distributive1.png)
+   
+ Second:
+ 
+   [image](images/distributive2.png)
 
  3.2 Verifying the Distributive laws in EDA Playground:
  
@@ -84,4 +90,4 @@ end architecture dataflow;
 
  3.4 Link to EDA Playground:
  
-   ![L I N K](https://www.edaplayground.com/x/rmfd)
+   [L I N K](https://www.edaplayground.com/x/rmfd)
