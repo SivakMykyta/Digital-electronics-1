@@ -50,7 +50,7 @@ end architecture dataflow;
  
  First:
  
-   ![image](images/distributive1.png)
+   ![distributive1](images/distributive1.png)
    
  Second:
  
@@ -90,4 +90,4 @@ end architecture dataflow;
 
  3.4 Link to my public EDA Playground example:
  
-   ![L I N K](https://www.edaplayground.com/x/rmfd)
+   [L I N K](https://www.edaplayground.com/x/rmfd)
