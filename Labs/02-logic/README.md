@@ -29,7 +29,7 @@
 
 ### 2-bit comparator
 
-1. Karnaugh maps for other two functions:
+1. Karnaugh maps for three functions:
 
    Equals:
    
