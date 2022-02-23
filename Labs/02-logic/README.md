@@ -45,7 +45,7 @@
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](<img src="https://latex.codecogs.com/svg.image?greater_{SoP}^{min}=(\overline{A1}*B1)&plus;(\overline{A0}*B1*B0)&plus;(\overline{A1}*\overline{A0}*B0)\\less_{poS}^{min}=(A1&plus;A0)*(\overline{B0}&plus;\overline{B1})*(A0&plus;\overline{B1})*(\overline{B0}&plus;A1)*(\overline{B1}&plus;A1)" title="greater_{SoP}^{min}=(\overline{A1}*B1)+(\overline{A0}*B1*B0)+(\overline{A1}*\overline{A0}*B0)\\less_{poS}^{min}=(A1+A0)*(\overline{B0}+\overline{B1})*(A0+\overline{B1})*(\overline{B0}+A1)*(\overline{B1}+A1)" />)
+   <img src="https://latex.codecogs.com/svg.image?greater_{SoP}^{min}=(\overline{A1}*B1)&plus;(\overline{A0}*B1*B0)&plus;(\overline{A1}*\overline{A0}*B0)\\less_{poS}^{min}=(A1&plus;A0)*(\overline{B0}&plus;\overline{B1})*(A0&plus;\overline{B1})*(\overline{B0}&plus;A1)*(\overline{B1}&plus;A1)" title="greater_{SoP}^{min}=(\overline{A1}*B1)+(\overline{A0}*B1*B0)+(\overline{A1}*\overline{A0}*B0)\\less_{poS}^{min}=(A1+A0)*(\overline{B0}+\overline{B1})*(A0+\overline{B1})*(\overline{B0}+A1)*(\overline{B1}+A1)" />
 
 ### 4-bit comparator
 
