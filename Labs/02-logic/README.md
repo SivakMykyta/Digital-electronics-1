@@ -41,7 +41,7 @@
 
    Less than:
 
-   ![K-maps](images/BislessthanA.png)
+   ![K-maps](images/Bislessthan.png)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
