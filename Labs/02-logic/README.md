@@ -78,9 +78,13 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure](images/pri_spravnem.png)
+Pri spravnem nastaveni:
+
+   ![](images/pri_spravnem.png)
    
-   ![asd](images/pri_nespravnem.png)
+Pri nespravnem nastaveni:
+   
+   ![](images/pri_nespravnem.png)
 
 3. Link to your public EDA Playground example:
 
