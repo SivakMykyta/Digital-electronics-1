@@ -1,0 +1,1 @@
+set_property SRC_FILE_INFO {cfile:D:/Documents/214410/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc rfile:../../../../../multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc id:1} [current_design]
