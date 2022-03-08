@@ -1,4 +1,4 @@
-# Lab 3:
+# Lab 3
 
 ### Three-bit wide 4-to-1 multiplexer
 
