@@ -31,7 +31,7 @@ The Nexys A7 board provides two four-digit common anode seven-segment LED displa
 
 ### Seven-segment display decoder
 
-1. Listing of VHDL stimulus process from testbench file (`tb_hex_7seg.vhd`) with asserts. Verify all input combinations. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+1. Listing of VHDL stimulus process from testbench file (`tb_hex_7seg.vhd`) with asserts:
 
 ```vhdl
     p_stimulus : process
@@ -92,13 +92,13 @@ The Nexys A7 board provides two four-digit common anode seven-segment LED displa
     end process p_stimulus;
 ```
 
-2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+2. Screenshot with simulated time waveforms:
 
    ![](images/sim.png)
 
 ### LED(7:4) indicators
 
-1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`:
 
    ```vhdl
    --------------------------------------------------------------------
