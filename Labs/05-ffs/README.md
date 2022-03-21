@@ -2,7 +2,7 @@
 
 ## Preparation tasks (done before the lab at home)
 
-1. Write characteristic equations and complete truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents output value after the clock edge.
+1. Characteristic equations and truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents output value after the clock edge.
 
    ![](images/equation.png)
    
@@ -38,7 +38,7 @@
 
 ### Flip-flops
 
-1. Listing of VHDL architecture for T-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+1. Listing of VHDL architecture for T-type flip-flop:
 
 ```vhdl
 library IEEE;
