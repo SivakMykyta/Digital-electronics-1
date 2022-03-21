@@ -1,4 +1,4 @@
-# Lab 5: YOUR_FIRSTNAME LASTNAME
+# Lab 5
 
 ## Preparation tasks (done before the lab at home)
 
