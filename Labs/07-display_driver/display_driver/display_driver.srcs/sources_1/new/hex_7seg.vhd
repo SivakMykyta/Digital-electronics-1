@@ -16,36 +16,17 @@ use ieee.std_logic_1164.all;
 -- Entity declaration for seven7-segment display decoder
 ------------------------------------------------------------
 entity hex_7seg is
-    Port ( hex_i : in STD_LOGIC_VECTOR (3 downto 0);
-           seg_o : out STD_LOGIC_VECTOR (6 downto 0));
-end hex_7seg;
-
-architecture Behavioral of hex_7seg is
-
-begin
-
-
-end Behavioral;
+    port(
+        hex_i : in  std_logic_vector(4 - 1 downto 0);
+        seg_o : out std_logic_vector(7 - 1 downto 0)
+    );
+end entity hex_7seg;
 
 ------------------------------------------------------------
 -- Architecture body for seven-segment display decoder
 ------------------------------------------------------------
 architecture Behavioral of hex_7seg is
 begin
-    --------------------------------------------------------
-    -- p_7seg_decoder:
-    -- A combinational process for 7-segment display (Common
-    -- Anode) decoder. Any time "hex_i" is changed, the process
-    -- is "executed". Output pin seg_o(6) controls segment A,
-    -- seg_o(5) segment B, etc.
-    --       segment A
-    --        | segment B
-    --        |  | segment C
-    --        +-+|  |   ...   segment G
-    --          ||+-+          |
-    --          |||            |
-    -- seg_o = "0000001"-------+
-    --------------------------------------------------------
     p_7seg_decoder : process(hex_i)
     begin
         case hex_i is
@@ -54,7 +35,7 @@ begin
             when "0001" =>
                 seg_o <= "1001111"; -- 1
             when "0010" =>
-                seg_o <= "0010010"; -- 2
+                seg_o <= "1101101"; -- 2
             when "0011" =>
                 seg_o <= "0000110"; -- 3
             when "0100" =>
@@ -74,9 +55,9 @@ begin
             when "1011" =>
                 seg_o <= "1100000"; -- b
             when "1100" =>
-                seg_o <= "0110001"; -- C  
+                seg_o <= "0110001"; -- C
             when "1101" =>
-                seg_o <= "1000010"; -- d                                                                
+                seg_o <= "1000010"; -- d
             when "1110" =>
                 seg_o <= "0110000"; -- E
             when others =>
@@ -85,4 +66,3 @@ begin
     end process p_7seg_decoder;
 
 end architecture Behavioral;
-
