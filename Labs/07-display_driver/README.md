@@ -47,12 +47,6 @@ head:
 1. Listing of VHDL code of the completed process `p_mux`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-    --------------------------------------------------------
-    -- p_mux:
-    -- A sequential process that implements a multiplexer for
-    -- selecting data for a single digit, a decimal point 
-    -- signal, and switches the common anodes of each display.
-    --------------------------------------------------------
     p_mux : process(clk)
     begin
         if rising_edge(clk) then
