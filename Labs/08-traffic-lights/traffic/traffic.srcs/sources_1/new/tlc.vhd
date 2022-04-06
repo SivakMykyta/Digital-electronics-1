@@ -78,7 +78,7 @@ begin
     -- USE THE FOLLOWING PART FOR THE IMPLEMENTATION
     clk_en0 : entity work.clock_enable
         generic map(
-            g_MAX => 25000000 -- 250 ms / (1/100 MHz)
+            g_MAX => 1 -- 250 ms / (1/100 MHz)
         )
         port map(
             clk   => clk,
