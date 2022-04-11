@@ -1,6 +1,6 @@
 ## Preparation tasks (done before the lab at home)
 
-1. See [schematic](https://github.com/tomas-fryza/digital-electronics-1/blob/master/docs/nexys-a7-sch.pdf) or [reference manual](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual) of the Nexys A7 board and find out the connection of two RGB LEDs, ie to which FPGA pins are connected and how.
+1. Connection of two RGB LEDs, ie to which FPGA pins are connected and how:
 
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
@@ -13,7 +13,7 @@
 
 1. Figure of traffic light controller state diagram. The image can be drawn on a computer or by hand. Always name all states, transitions, and input signals!
 
-   ![your figure]()
+   ![](images/scheme.png)
 
 2. Listing of VHDL code of the completed process `p_traffic_fsm`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
