@@ -7,6 +7,8 @@
 | LD16 | N15, M16, R12 | `1,0,0` | `1,0,1` | `0,0,1` |
 | LD17 | N16, M11, G14 | `1,0,0` | `1,0,1` | `0,0,1` |
 
+   ![](images/priprava.png)
+
 # Lab 8
 
 ### Traffic light controller
